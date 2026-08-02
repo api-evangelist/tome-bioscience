@@ -1,7 +1,31 @@
 aid: tome-bioscience
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tome-bioscience.png
 name: Tome Bioscience
-description: Tome Bioscience is a company surfaced as a portfolio company of a16z and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Tome Biosciences is a genome-editing therapeutics company founded in 2021 and
+  based in Watertown, Massachusetts. It develops programmable genomic integration
+  (PGI) technology that pairs the site-specificity of CRISPR/Cas with integrase
+  enzymes to insert genetic sequences of virtually any size into the genome
+  without relying on double-strand DNA breaks. The company was cofounded by Omar
+  Abudayyeh and Jonathan Gootenberg, formerly of MIT's McGovern Institute, and
+  raised roughly $213M across Series A and B financing led in part by a16z. Its
+  stated programs target integrative gene therapies for monogenic liver diseases
+  and cell therapies for autoimmune conditions. Tome is a biopharmaceutical R&D
+  company with no public API, developer portal, SDKs, or machine-readable API
+  surface; its documented website (tome.bio) does not currently resolve. It is
+  tracked in the API Evangelist network as an a16z portfolio company / enrichment
+  lead rather than an API producer.
 url: https://raw.githubusercontent.com/api-evangelist/tome-bioscience/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +33,28 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-industry: Biotechnology
+x-headquarters: Watertown, Massachusetts, USA
+x-founded: '2021'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Biotechnology
+- Genome Editing
+- Gene Therapy
+- CRISPR
+- Life Sciences
+- Therapeutics
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
